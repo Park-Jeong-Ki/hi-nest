@@ -5,6 +5,6 @@ import { Get } from '@nestjs/common';
 export class AppController {
   @Get()
   home() {
-    return "Welecome to my Movie API";
+    return 'Welcome to my Movie API';
   }
 }
